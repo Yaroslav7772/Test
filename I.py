@@ -3,10 +3,6 @@ import time
 str.title('The password game')
 str.markdown("<h1 style='text-align: center; color: green;'>Hello!</h1>", unsafe_allow_html=True)
 def check(password):
-    current = time.localtime()
-    hour = time.strftime('%H')
-    date = time.strftime('%d')
-    day = time.strftime('%A')
     count_spec_symbols = 0
     count_numbers = 0
     count_upper = 0
