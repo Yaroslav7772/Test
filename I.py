@@ -1,5 +1,4 @@
 import streamlit as str
-import time
 str.title('The password game')
 str.markdown("<h1 style='text-align: center; color: green;'>Hello!</h1>", unsafe_allow_html=True)
 def check(password):
