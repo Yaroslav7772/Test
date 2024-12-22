@@ -20,12 +20,6 @@ def check(password):
         str.markdown('Простите, но ваш пароль должен содержать как минимум 8 символов')
     elif len(password) >50:
         str.markdown('Ваш пароль слишком большой, уменьшите количество символов в пароле как минимум до 50')
-    elif hour not in password:
-        str.markdown('Добавьте в пароль текущий час')
-    elif date not in password:
-        str.markdown('Пароль должен содержать текущую дату')
-    elif day not in password:
-        str.markdown('Пароль должен содержать название дня недели(с заглавной буквы)')
     elif count_spec_symbols < 1:
         str.markdown('В вашем пароле должно быть как минимум 1 спец. символ')
     elif count_upper < 5:
